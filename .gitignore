@@ -1,0 +1,7 @@
+.obsidian
+data/
+.ipynb_checkpoints/
+venv/
+.~ # ignores the automatically created lock files
+__pycache__/
+.idea/
