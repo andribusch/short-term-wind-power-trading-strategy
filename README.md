@@ -1,7 +1,8 @@
-# Improving Short Term Power Markets Trading Strategy for Wind Power Producer 
+# Improving Short Term Power Markets Trading Strategy for Physical Wind Trading
 
-Informatics bachelor thesis project.
+Informatics bachelor thesis project. Official document is available on TalTech Digital Archive [[Here]](https://digikogu.taltech.ee/en/Item/05e15311-cd8b-46bf-aa61-f25bfd7184e6)  
 
+Repository Structure:  
 - **analysis** - All the research behind models, that has been done. Separated into optimization and forecast research
 - **src** - The main code of the backtesting and the real model. NB! The folders `simulation` and `option_valuation` serve the function of background, as it was the initial research, that was discontinued and new ideas built upon these insights. 
 
@@ -9,7 +10,10 @@ Informatics bachelor thesis project.
 
 The main goal of the present bachelor's thesis is to develop a short term power market trading strategy, based on statistical and machine learning methods and implement it to an automated decision model. The work explores the previously mentioned business problem and the validity of different alternative solutions, depending on the available data and specific business requirements. **The most important components of the technical implementation are the optimization algorithm and a time series forecasting model**.
 
-The most representative parts of the repository are [Trading strategy formulation](analysis/optimization/Imbalance strategy results analysis.ipynb), [Statistical Timeseries Forecast modelling](analysis/forecast/System imbalance Forecasts development_official.ipynb), and [Backtesting results](analysis/optimization/Results analysis_official.ipynb)
+The most representative parts of the repository are 
+* [Trading strategy formulation](https://github.com/andribusch/short-term-wind-power-trading-strategy/main/analysis/optimization/Imbalance%20strategy%20results%20analysis.ipynb)
+* [Statistical Timeseries Forecast modelling](https://github.com/andribusch/short-term-wind-power-trading-strategy/main/analysis/forecast/System%20imbalance%20Forecasts%20development_official.ipynb)
+* [Backtesting results](https://github.com/andribusch/short-term-wind-power-trading-strategy/main/analysis/optimization/Results%20analysis_official.ipynb)
 
 The practical contribution of this work is the automated decision system that helps electricity traders (including algorithmic trading algorithms) make better informed decisions and reduce computational overhead in fast-paced, short-term trading.  
 
